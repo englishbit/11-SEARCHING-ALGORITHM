@@ -30,7 +30,7 @@ int size=sizeof(arr)/sizeof(arr[0]);
 int target=20;
 int rslt=ternary_search(arr,target,0,size-1);
 
-         
+         //logic for output
 if(rslt!=-1){
     printf("%d",rslt);
 }else{
@@ -42,4 +42,5 @@ if(rslt!=-1){
 
     return 0;
 }
+
 
