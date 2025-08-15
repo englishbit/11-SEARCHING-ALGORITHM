@@ -29,9 +29,11 @@ int main(){
         int size=sizeof(arr)/sizeof(arr[0]);
         int rslt=binary_search(arr,size,target);
 
+        //logic for output
         if(rslt==-1)
         printf("target is not found");
         else
         printf("%d",rslt);
 
 }
+
