@@ -1,5 +1,5 @@
 #include<stdio.h>
-//logic for ternary search 
+//logic for ternary search function
 int ternary_search(int arr[],int target,int lo,int hi){
          while(lo<=hi){
             int mid1=lo+(hi-lo)/3;
@@ -42,5 +42,6 @@ if(rslt!=-1){
 
     return 0;
 }
+
 
 
