@@ -24,7 +24,7 @@ int ternary_search(int arr[],int target,int lo,int hi){
 
 }
 int main(){
-// the declaring array
+//declaring the array
 int arr[]={2,5,6,9,13,18,20,25,30,40};
 int size=sizeof(arr)/sizeof(arr[0]);
 int target=20;
@@ -42,6 +42,7 @@ if(rslt!=-1){
 
     return 0;
 }
+
 
 
 
