@@ -28,6 +28,8 @@ int main(){
 int arr[]={2,5,6,9,13,18,20,25,30,40};
 int size=sizeof(arr)/sizeof(arr[0]);
 int target=20;
+
+//logic for calling function
 int rslt=ternary_search(arr,target,0,size-1);
 
          //logic for output
@@ -42,6 +44,7 @@ if(rslt!=-1){
 
     return 0;
 }
+
 
 
 
