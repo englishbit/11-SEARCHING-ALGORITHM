@@ -1,5 +1,5 @@
 #include<stdio.h>
-//logic for binary search 
+//logic for binary search function
 int binary_search(int arr[],int size,int target){
     int lo=0;
     int hi=size-1;
@@ -37,6 +37,7 @@ int main(){
         printf("%d",rslt);
 
 }
+
 
 
 
