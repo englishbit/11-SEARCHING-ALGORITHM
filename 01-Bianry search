@@ -16,6 +16,7 @@ int binary_search(int array[],int l,int r,int target){
 
 int main(){
     int n;
+    //logic for taking input
     cin>>n;
     for(int i=0;i<n;i++){
         cin>>array[i];
@@ -32,4 +33,5 @@ int main(){
     cout<<"not found"<<endl;
     
     return 0;
+
 }
