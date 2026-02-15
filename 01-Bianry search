@@ -26,7 +26,7 @@ int main(){
     int target;
     cin>>target;
 
-    
+    //logic for output
     if(binary_search(array,0,n-1,target)!=-1)
     cout<<"found"<<endl;
     else
@@ -35,4 +35,5 @@ int main(){
     return 0;
 
 }
+
 
