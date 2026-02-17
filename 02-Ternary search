@@ -2,6 +2,7 @@
 using namespace std;
 #define max 100000 
 int array[max];
+//logic for ternary search
 int ternary_search(int array[],int l,int r,int target){
     while(l<=r){
        int mid1=l+(r-l)/3;
@@ -35,3 +36,4 @@ int main(){
 
 
 }
+
