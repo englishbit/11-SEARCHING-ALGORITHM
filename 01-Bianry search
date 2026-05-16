@@ -16,7 +16,7 @@ int binary_search(int array[],int l,int r,int target){
 
 int main(){
     int n;
-    //logic for taking input
+    //LOGIC FOR TAKING INPUT
     cin>>n;
     for(int i=0;i<n;i++){
         cin>>array[i];
