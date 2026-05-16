@@ -2,7 +2,7 @@
 using namespace std;
 #define MAX 100000
 int array[MAX];
-//logic for binary search
+//LOGIC FOR SEARCH FUNCTION
 int binary_search(int array[],int l,int r,int target){
     while(l<=r){
         int mid=(l+r)/2;
